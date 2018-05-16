@@ -1,21 +1,14 @@
 {
-  "name": "ecsedit",
-  "version": "0.1.0",
-  "description": "Command-line tool to edit AWS ECS configurations",
-  "bin": {
-    "ecsedit": "index.js"
-  },
+  "name": "ecs-extra",
+  "version": "0.0.1",
+  "description": "Library extending Elastic Container Service from Amazon Web Services ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pkg --out-path ./bin ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rafael Gumieri",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.240.1",
-    "commander": "^2.15.1",
-    "open-in-editor": "^2.2.0",
-    "tmp": "0.0.33"
+    "aws-sdk": "^2.240.1"
   },
   "main": "index.js",
   "directories": {
@@ -23,21 +16,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gumieri/ecsedit.git"
+    "url": "git+https://github.com/gumieri/ecs-extra.git"
   },
   "keywords": [
     "aws",
     "ecs",
-    "cli",
-    "vim",
-    "edit"
+    "container",
+    "lib",
+    "library",
+    "extend",
+    "extra"
   ],
   "bugs": {
-    "url": "https://github.com/gumieri/ecsedit/issues"
+    "url": "https://github.com/gumieri/ecs-extra/issues"
   },
-  "homepage": "https://github.com/gumieri/ecsedit#readme",
+  "homepage": "https://github.com/gumieri/ecs-extra#readme",
   "devDependencies": {
-    "pkg": "^4.3.1",
     "prettier-standard": "^8.0.0",
     "standard": "^11.0.0"
   }
