@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/gumieri/ecs-extra#readme",
   "devDependencies": {
+    "aws-sdk-mock": "^2.0.0",
     "prettier-standard": "^8.0.0",
     "standard": "^11.0.0"
   }
