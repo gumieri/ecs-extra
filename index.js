@@ -1,3 +1,5 @@
 module.exports = {
-  services: require('./lib/services')
+  repositories: require('./lib/repositories'),
+  services: require('./lib/services'),
+  taskDefinitions: require('./lib/task_definitions')
 }
